@@ -818,5 +818,5 @@ def get_ip_info(ip):
 Код:
 [generate_report_portal.py](./generate_report_portal.py)
 
-##### Пример части ежечасовой сводки
+##### Пример части общего отчета
 ![alt text](report.PNG)
