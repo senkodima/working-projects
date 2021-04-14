@@ -407,7 +407,7 @@ def add_to_database(listOpenedConnect, listClosedConnect):
 ![alt text](example.PNG)
 
 ##### main
-```
+```python
 schedule.every().day.at("00:25").do(day_report)
 schedule.every().day.at("00:20").do(job, True)
 schedule.every().hour.at(":35").do(job)
