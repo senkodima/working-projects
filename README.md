@@ -1,6 +1,6 @@
 ## Working projects
 1. [Сборщик логов 1](#Сборщик-логов-1)
-2. [Example2](#example2)
+2. [Сборщик логов 2](#Сборщик-логов-2)
 3. [Third Example](#third-example)
 4. [Fourth Example](#fourth-example)
 
@@ -388,4 +388,9 @@ def add_to_database(listOpenedConnect, listClosedConnect):
                            f'Upon successful connection to the database, these logs will be written to the database')
                 isEmailSend_database = True
             print("Database error: ", str(error).strip())
+```
+
+### Сборщик логов 2
+```
+Сбор логов и анализ количества попыток аутентификации с внешних ip-адресов к порталу услуг
 ```
