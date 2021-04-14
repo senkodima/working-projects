@@ -1,8 +1,7 @@
 ## Working projects
 1. [Сборщик логов 1](#Сборщик-логов-1)
 2. [Сборщик логов 2](#Сборщик-логов-2)
-3. [Third Example](#third-example)
-4. [Fourth Example](#fourth-example)
+3. [Сборщик логов 3](#Сборщик-логов-3)
 
 ### Сборщик логов 1
 ```
@@ -21,6 +20,7 @@
   - новые подключения
   - обновление информации, когда подключение завершено
 
+Код:
 [SSH_Connection.py](./SSH_Connection.py)
 
 ##### main
@@ -399,6 +399,12 @@ def add_to_database(listOpenedConnect, listClosedConnect):
 - сбор информации об ip-адресах
 - формирование письма в удобочитаемую таблицу
 - отправка уведомления на почту 
+
+Код:
+[portal.py](./portal.py)
+
+##### Пример части ежечасовой сводки
+![alt text](example.PNG)
 
 ##### main
 ```
@@ -799,4 +805,9 @@ def get_ip_info(ip):
                 ip_info += f'{network}'
 
     return ip_info
+```
+
+### Сборщик логов 3
+```
+
 ```
